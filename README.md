@@ -10,11 +10,11 @@ Python scraper for Wellfound.com jobs (UK-based). Extracts company name, job tit
 
 
 
-#pip install -r requirements.txt
+##pip install -r requirements.txt
 
 
 
-#Setup PostgreSQL Database
+##Setup PostgreSQL Database
 Create a database (e.g., internship_assessment).
 Create the table:
 
@@ -33,7 +33,7 @@ Create the table:
 
 
 
-#Update the database connection in scraper.py:
+##Update the database connection in scraper.py:
 #conn = psycopg2.connect(
     dbname="internship_assessment",
     user="your_user",
